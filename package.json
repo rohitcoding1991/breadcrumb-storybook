@@ -30,9 +30,12 @@
     "chromatic": "npx chromatic --project-token=chpt_cf1188ab55350eb"
   },
   "peerDependencies": {
+    "axios": "1.5.0",
     "next": "14.2.7",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "4.7.5"
   },
   "devDependencies": {
     "next": "14.2.7",

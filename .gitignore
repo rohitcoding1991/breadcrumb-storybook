@@ -27,7 +27,6 @@ yarn-error.log*
 
 # local env files
 .env*.local
-.env
 .env.dev
 .env.prod
 
@@ -39,3 +38,4 @@ yarn-error.log*
 next-env.d.ts
 
 *storybook.log
+config.bat
