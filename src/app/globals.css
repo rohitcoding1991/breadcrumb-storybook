@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white-text: #fff;
+  --nav-items: #9ca3af;
+  --other-navs: #6b7280;
+  --hover-items: #2c3539;
+}
+
+body {
+  max-width: 1500px !important;
+  margin: auto;
+}
+
+.reviews {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/*======================
+    404 page
+=======================*/
+
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: "Arvo", serif;
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  /* background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif); */
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
+}
+.contant_box_404 {
+  margin-top: -50px;
+}
+
+/* Classes for Storybook */
+
+.my-container-class {
+  display: flex;
+  max-width: fit-content;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: var(--nav-items);
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+}
+
+.my-list-item-class {
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+  font-weight: 400;
+}
+
+.my-list-item-class:hover {
+  color: var(--hover-items);
+}
+
+.my-active-class {
+  color: var(--other-navs);
+  font-weight: 400;
+}

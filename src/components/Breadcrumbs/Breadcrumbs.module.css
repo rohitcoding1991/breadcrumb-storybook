@@ -1,0 +1,62 @@
+/* Custom CSS classes for Breadcrumbs module */
+.cFlex {
+  display: flex;
+  max-width: fit-content;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.cPadding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.cMargin {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.cColor {
+  color: var(--nav-items);
+}
+
+.cText {
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+}
+
+.cListColor {
+  color: var(--other-navs);
+}
+
+.cHover:hover {
+  color: var(--hover-items);
+}
+
+.cHoverHome:hover {
+  fill: var(--hover-items);
+}
+
+.cFontWeight {
+  font-weight: 400;
+}
+
+.cIcon {
+  width: 22px;
+  height: 22px;
+  margin: auto 0;
+  fill: var(--nav-items);
+}
+
+.cCursor {
+  cursor: pointer;
+}
+
+.cHomeIcon {
+  margin: 20px;
+  height: 20px;
+  margin: auto 0;
+  fill: var(--nav-items);
+}
